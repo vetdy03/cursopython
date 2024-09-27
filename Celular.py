@@ -5,6 +5,7 @@ class Celular:
         self.camaraa = marca
 celular1 = Celular("samsung", "s23", "48mp")
 
-#celular1.marcaa = "aplle"
+print(celular1.modeloo)
 print(celular1.marcaa)
+
 
