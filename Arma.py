@@ -11,3 +11,6 @@ class Arma:
     
     def cambiar_poder(self, valor:int):
         self.poder = valor
+
+    def cambiar_tipo(sel, valor: str):
+        self.tipo = tipo
