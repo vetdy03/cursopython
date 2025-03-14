@@ -6,8 +6,6 @@ def main():
     number = int(input('Ingrese su numero: '))
     attempt = 5
 
-
-
     while number != secret and attempt > 0:
         if number > secret:
             print('Tu numero secreto es menor, todavia tienes {} intentos'.format(attempt))
