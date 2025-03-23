@@ -9,3 +9,4 @@ def     ejercicio12Marraqueta():
     print("El precio final a pagar es: {} € ".format(round(coste, 2)))
 if __name__ == '__main__':
     ejercicio12Marraqueta()
+    
