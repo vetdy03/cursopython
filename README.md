@@ -40,15 +40,15 @@ Paso 4 Empuje los cambios.
 git restore
 ```
 # rama local main está desactualizada respecto a la rama remota main
-- Actualizar la rama local antes de hacer push:
+- Actualizar la rama local antes de hacer push Esto traerá los cambios remotos y aplicará tus cambios encima
 ```makdown
 git pull origin main --rebase
 ```
--
+-  Forzar el push ⚠️ Sobrescribirá el remoto, si estas seguro
 ```makdown
-
+git push -f origin main
 ```
--
+- 
 - Actualizar la rama local antes de hacer push:
 ```makdown
 
@@ -58,15 +58,7 @@ git pull origin main --rebase
 
 ```
 -
-- Actualizar la rama local antes de hacer push:
-```makdown
 
-```
--
-```makdown
-
-```
--
 
 
 
