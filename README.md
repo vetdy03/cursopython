@@ -16,7 +16,15 @@ git push -u origin main
 ```makdown
 git pull -u origin main
 ```
-- 
+- Guardar tus cambios actuales (por si acaso)
+```makdown
+git stash
+```
+- Aplicar los cambios guardados
+```makdown
+git stash pop
+```
+
 # comandos para mergear desde consola
 Paso 1 Clone el repositorio o actualice su repositorio local con los `últimos cambios.`
 
@@ -49,15 +57,15 @@ git pull origin main --rebase
 git push -f origin main
 ```
 - 
-- Actualizar la rama local antes de hacer push:
+- 
 ```makdown
 
 ```
--
+- 
 ```makdown
 
 ```
--
+- 
 
 
 
