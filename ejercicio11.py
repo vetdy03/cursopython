@@ -1,8 +1,15 @@
-inversion = float(input("Introduce la inversión inicial: "))
-interes = 0.04
-balance1 = inversion * (1 + interes)
-print("Balance tras el primer año:" + str(round(balance1, 2)))
-balance2 = balance1 * (1 + interes)
-print("Balance tras el segundo año:" + str(round(balance2, 2)))
-balance3 = balance2 * (1 + interes)
-print("Balance tras el tercer año:" + str(round(balance3, 2)))
+
+def ejer11Interescompuesto():
+    cantAahorrar= float(input("Ingrese la cant. total a ahorrar: "))
+    interes= 0.04
+    ahorrosPA= cantAahorrar*(1+interes)
+    print("Balance tras el primer año es:{} ".format(round(ahorrosPA,2)))
+    ahorrosSA= ahorrosPA*(1+interes)
+    print("Balance de ahorroa segundo año: {}".format(round(ahorrosSA,3)))
+    ahorrosTA= ahorrosSA*(1+interes)
+    print("Balance de ahorroa tercer año: {}".format(round(ahorrosTA,1)))
+    print("Gracias por ahorrar en nuestro banco, Tenga Feliz día")
+    print("Thanks for saving at our bank, have a nice day")
+
+if __name__ == '__main__':
+    ejer11Interescompuesto()
