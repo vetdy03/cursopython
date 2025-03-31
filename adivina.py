@@ -4,7 +4,12 @@ def main():
     secret = random.randint(1, 100)
     print('A D I V I N A   E L   N U M E R O   S E C R E T O ')
     number = int(input('Ingrese su numero: '))
-    attempt = 5
+    attempt = 50
+    
+    
+    
+    
+    
 
     while number != secret and attempt > 0:
         if number > secret:
