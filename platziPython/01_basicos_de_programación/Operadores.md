@@ -52,3 +52,4 @@ x //= 1   # x ahora sigue siendo 1.0
 4. **División** `/`
 5. **Adición** `+`
 6. **Sustracción** `-`
+- *PEMDAS*
