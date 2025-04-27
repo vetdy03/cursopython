@@ -76,6 +76,4 @@ enunciados (statements) con un nombre que realizan un cómputo
   - **return x +y**
   - **other_function(sum_two_numbers(3, 4):)**
 
-- Una **expresión** (*expression*) es una combinación de valores, variables y operadores.
-  - El intérprete evalúa expresiones.
-  - **Ejemplo:** `2 + 2`
+
