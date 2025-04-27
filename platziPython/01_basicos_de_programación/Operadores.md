@@ -68,10 +68,14 @@ enunciados (statements) con un nombre que realizan un cómputo
 - Python incluye varias built-in functions en su librería estándar
 
 - Otras funciones se pueden encontrar en módulos ○ Para utilizarlas es necesario importar el módulo
- **Ej. import math**
+  - **Ej. import math**
 - Para declarar una función, utilizamos el keyword def
-  **def my_fuction(first_argument, second_argument=none)**
+  - **def my_fuction(first_argument, second_argument=none)**
 - Las funciones se pueden componer
- **def sum_two_numbers(x, y):**
- **return x +y**
- **other_function(sum_two_numbers(3, 4):)**
+  - **def sum_two_numbers(x, y):**
+  - **return x +y**
+  - **other_function(sum_two_numbers(3, 4):)**
+
+- Una **expresión** (*expression*) es una combinación de valores, variables y operadores.
+  - El intérprete evalúa expresiones.
+  - **Ejemplo:** `2 + 2`
