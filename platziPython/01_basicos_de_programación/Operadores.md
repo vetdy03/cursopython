@@ -3,7 +3,8 @@
 Estos operadores permiten modificar y asignar una variable en un solo paso:
 
 | Operador | Significado | Ejemplo | Resultado |
-
+|:---|:---|:---|:---|
+| `+` | Sumar | `2+2= 4` |
 | `+=` | Sumar y asignar | `x += 3` | `x = x + 3` |
 | `-=` | Restar y asignar | `x -= 2` | `x = x - 2` |
 | `/=` | Dividir y asignar | `x /= 4` | `x = x / 4` |
