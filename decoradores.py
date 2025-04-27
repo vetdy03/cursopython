@@ -1,8 +1,8 @@
-4. Decoradores en Python
+#4. Decoradores en Python
 
-Descripción: Escribe un decorador que mida el tiempo de ejecución de una función.
-Objetivo: Aprender a extender y modificar el comportamiento de las funciones en Python.
-Código de Ejemplo:
+#Descripción: Escribe un decorador que mida el tiempo de ejecución de una función.
+#Objetivo: Aprender a extender y modificar el comportamiento de las funciones en Python.
+#Código de Ejemplo:
 import time
 def temporizador(func):
     def envoltura():
