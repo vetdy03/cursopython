@@ -33,3 +33,21 @@ x /= 4    # x ahora es 6.0
 x **= 2   # x ahora es 36.0
 x %= 7    # x ahora es 1.0
 x //= 1   # x ahora sigue siendo 1.0
+```
+
+# Variables y expresiones
+● Una expresión (expression) es una combinación de valores, variables y
+operadores
+○ El intérprete evalúa expresiones
+○ Ej. 2 + 2
+● Un enunciado (statement) es una unidad de código que tiene un efecto
+○ Ej. age = 20
+
+● Orden de operaciones:
+○ Parentesis
+■ Exponente
+● Multiplicación
+● División
+○ Adición
+○ Substracción
+● PEMDAS
