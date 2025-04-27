@@ -36,18 +36,19 @@ x //= 1   # x ahora sigue siendo 1.0
 ```
 
 # Variables y expresiones
-● Una expresión (expression) es una combinación de valores, variables y
-operadores
-○ El intérprete evalúa expresiones
-○ Ej. 2 + 2
-● Un enunciado (statement) es una unidad de código que tiene un efecto
-○ Ej. age = 20
 
-● Orden de operaciones:
-○ Parentesis
-■ Exponente
-● Multiplicación
-● División
-○ Adición
-○ Substracción
-● PEMDAS
+- Una **expresión** (*expression*) es una combinación de valores, variables y operadores.
+  - El intérprete evalúa expresiones.
+  - **Ejemplo:** `2 + 2`
+
+- Un **enunciado** (*statement*) es una unidad de código que tiene un efecto.
+  - **Ejemplo:** `age = 20`
+
+## Orden de operaciones (PEMDAS)
+
+1. **Paréntesis** `()`
+2. **Exponentes** `**`
+3. **Multiplicación** `*`
+4. **División** `/`
+5. **Adición** `+`
+6. **Sustracción** `-`
