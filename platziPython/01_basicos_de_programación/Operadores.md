@@ -57,5 +57,21 @@ x //= 1   # x ahora sigue siendo 1.0
 ## nOMBRES Y VARIABLES
 - PALABRAS RESERVADAS COMO:
 ```
-false, None, True, and, as, assert, async, await, break
+false, None, True, and, as, assert, async, await, break, class, continue, def, del, elif, else, except, finally, for, from, glonal, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
 ```
+
+# Funciones
+- En el contexto de la programación, una función es una secuencia
+enunciados (statements) con un nombre que realizan un cómputo
+- Una función tiene un nombre, parámetros (opcional) y valor de regreso
+(return value)(opcional)
+- Python incluye varias built-in functions en su librería estándar
+
+- Otras funciones se pueden encontrar en módulos ○ Para utilizarlas es necesario importar el módulo
+ **Ej. import math**
+- Para declarar una función, utilizamos el keyword def
+  **def my_fuction(first_argument, second_argument=none)**
+- Las funciones se pueden componer
+ **def sum_two_numbers(x, y):**
+ **return x +y**
+ **other_function(sum_two_numbers(3, 4):)**
