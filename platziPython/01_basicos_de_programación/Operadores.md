@@ -53,3 +53,9 @@ x //= 1   # x ahora sigue siendo 1.0
 5. **Adición** `+`
 6. **Sustracción** `-`
 - *PEMDAS*
+
+## nOMBRES Y VARIABLES
+- PALABRAS RESERVADAS COMO:
+```
+false, None, True, and, as, assert, async, await, break
+```
